@@ -1,16 +1,41 @@
-#lake {
-    width: 650px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#desert, #flowers {
-    width: 300px;
-}
-
-#field, #snowy {
-    width: 650px;
+html, body, main {
+    height: fit-content;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
+
+
+    background-color: rgb(206, 206, 206);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 300px; /* mesma coisa que { flex-grow: 1; flex-shrink: 0; flex-basis: auto; } */
+    align-items: center;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    font-size: 40px;
+
+    margin: 5px;
+    height: 150px;
+}
+
+#sqr1 {
+    /*flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 650px;*/
+    flex: 2 1 650px;
+}
+
+#sqr4 {
+    flex: 1 0 150px;
 }
