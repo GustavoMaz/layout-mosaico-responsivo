@@ -1,0 +1,16 @@
+#lake {
+    width: 650px;
+}
+
+#desert, #flowers {
+    width: 300px;
+}
+
+#field, #snowy {
+    width: 650px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
