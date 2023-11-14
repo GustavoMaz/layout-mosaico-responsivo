@@ -3,15 +3,9 @@
     padding: 0;
 }
 
-html, body, main {
-    height: fit-content;
-}
-
 main {
     display: flex;
     flex-wrap: wrap;
-
-
     background-color: rgb(206, 206, 206);
 }
 
@@ -20,6 +14,7 @@ div {
     justify-content: center;
     flex: 1 0 300px;
     align-items: center;
+
     text-align: center;
     background-color: darkred;
     color: white;
@@ -32,12 +27,12 @@ div {
 #sqr1 {
     /*flex-grow: 2;
     flex-shrink: 1;
-    flex-basis: 650px;*/
+    flex-basis: 650px; pode ser simplificado em:*/
     flex: 2 1 650px;
 }
 
 #sqr4, #sqr5 {
-    flex: 1 0 150px;
+    flex: 1 0 140px;
 }
 
 #sqr6 {
